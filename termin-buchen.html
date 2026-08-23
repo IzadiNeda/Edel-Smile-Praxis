@@ -115,8 +115,7 @@
         <div class="eyebrow">Kontaktformular</div>
         <h2>Schreiben Sie uns Ihr Anliegen</h2>
         <p style="margin-bottom:30px;">Wir melden uns innerhalb eines Werktags telefonisch oder per E-Mail bei Ihnen, um den genauen Termin zu besprechen.</p>
-        <!-- IMPORTANT: replace YOUR_FORM_ID below with your real Formspree form ID (from formspree.io) -->
-        <form data-fake-submit action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form data-fake-submit action="https://formsubmit.co/ajax/edelsmile.dent@gmail.com" method="POST">
           <div class="form-grid">
             <div class="field"><label for="fname">Vorname</label><input type="text" id="fname" name="fname" required></div>
             <div class="field"><label for="lname">Nachname</label><input type="text" id="lname" name="lname" required></div>
@@ -137,6 +136,7 @@
           </div>
           <div class="field"><label for="notes">Nachricht (optional)</label><textarea id="notes" name="notes"></textarea></div>
           <input type="hidden" name="_subject" value="Neue Terminanfrage über die Website">
+          <input type="hidden" name="_template" value="table">
           <button type="submit" class="btn btn-primary btn-block">Anfrage senden</button>
           <div class="form-note" data-success-text="Vielen Dank. Wir melden uns in Kürze bei Ihnen." data-error-text="Es gab ein Problem beim Senden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns telefonisch oder per E-Mail."></div>
         </form>

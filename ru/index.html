@@ -194,8 +194,7 @@
         <div class="eyebrow">Запись на приём</div>
         <h2>Запишитесь на приём уже сегодня</h2>
         <p style="margin-bottom:30px;">Заполните форму — наша команда свяжется с вами в течение одного рабочего дня, чтобы согласовать точное время приёма.</p>
-        <!-- IMPORTANT: replace YOUR_FORM_ID below with your real Formspree form ID (from formspree.io) -->
-        <form data-fake-submit action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form data-fake-submit action="https://formsubmit.co/ajax/edelsmile.dent@gmail.com" method="POST">
           <div class="form-grid">
             <div class="field"><label for="fname">Имя</label><input type="text" id="fname" name="fname" required></div>
             <div class="field"><label for="lname">Фамилия</label><input type="text" id="lname" name="lname" required></div>
@@ -216,6 +215,7 @@
           </div>
           <div class="field"><label for="notes">Сообщение (необязательно)</label><textarea id="notes" name="notes"></textarea></div>
           <input type="hidden" name="_subject" value="Новая заявка на приём с сайта">
+          <input type="hidden" name="_template" value="table">
           <button type="submit" class="btn btn-primary btn-block">Отправить запрос</button>
           <div class="form-note" data-success-text="Спасибо. Мы свяжемся с вами в ближайшее время." data-error-text="Не удалось отправить запрос. Пожалуйста, попробуйте ещё раз или свяжитесь с нами по телефону или email."></div>
         </form>

@@ -194,8 +194,7 @@
         <div class="eyebrow">Book an Appointment</div>
         <h2>Schedule your appointment today</h2>
         <p style="margin-bottom:30px;">Fill out the form — our team will get in touch within one business day to confirm the exact appointment time.</p>
-        <!-- IMPORTANT: replace YOUR_FORM_ID below with your real Formspree form ID (from formspree.io) -->
-        <form data-fake-submit action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form data-fake-submit action="https://formsubmit.co/ajax/edelsmile.dent@gmail.com" method="POST">
           <div class="form-grid">
             <div class="field"><label for="fname">First Name</label><input type="text" id="fname" name="fname" required></div>
             <div class="field"><label for="lname">Last Name</label><input type="text" id="lname" name="lname" required></div>
@@ -216,6 +215,7 @@
           </div>
           <div class="field"><label for="notes">Message (optional)</label><textarea id="notes" name="notes"></textarea></div>
           <input type="hidden" name="_subject" value="New appointment request from the website">
+          <input type="hidden" name="_template" value="table">
           <button type="submit" class="btn btn-primary btn-block">Request Appointment</button>
           <div class="form-note" data-success-text="Thank you. We'll get back to you shortly." data-error-text="Something went wrong sending your request. Please try again or contact us by phone or email."></div>
         </form>
