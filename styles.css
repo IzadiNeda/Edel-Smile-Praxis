@@ -377,10 +377,11 @@ p{ color: var(--ivory-dim); margin:0 0 16px; font-size:16px; }
   .hero-media{
     position:relative;
     inset:auto;
-    height:56vw;
-    min-height:220px;
-    max-height:340px;
+    height:72vw;
+    min-height:280px;
+    max-height:440px;
   }
+  .hero-media video{ object-position:center center; }
   .hero-inner{ padding: 18px 0 24px; }
   .hero-inner .btn{
     width:100%;
