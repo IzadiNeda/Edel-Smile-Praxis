@@ -29,7 +29,7 @@
 }
 
 *, *::before, *::after{ box-sizing: border-box; }
-html{ scroll-behavior: smooth; }
+html{ scroll-behavior: smooth; overflow-x: hidden; }
 
 body{
   margin:0;
@@ -39,6 +39,7 @@ body{
   line-height: 1.8;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 img{ max-width:100%; display:block; }
@@ -160,7 +161,10 @@ p{ color: var(--ivory-dim); margin:0 0 16px; font-size:16px; }
     linear-gradient(160deg, #0e1c38, #060b18 75%);
 }
 .hero-media::after{ content:none; }
-.hero-inner{ position:relative; z-index:1; padding: 0 24px 56px; }
+.hero-inner{
+  position:relative; z-index:1; padding: 0 24px 56px;
+  display:flex; gap:14px; flex-wrap:wrap;
+}
 
 /* ---------- section shell ---------- */
 .section{ padding: 100px 0; }
@@ -346,6 +350,14 @@ p{ color: var(--ivory-dim); margin:0 0 16px; font-size:16px; }
   .footer-grid{ grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 760px){
+  .container{ padding: 0 16px; }
+  .nav-row{ gap:10px; }
+  .logo img{ height: 50px; }
+  .logo-text{ display:none; }
+  .nav-right{ gap:8px; margin-left:auto; }
+  .lang-pills{ padding:3px 5px; }
+  .lang-pills svg{ display:none; }
+  .lang-pills a{ padding:4px 6px; font-size:11px; }
   .nav-links{
     position:fixed; inset: 70px 0 0 0; background: rgba(10,20,40,0.98);
     flex-direction:column; justify-content:flex-start; padding: 40px 24px; gap:26px;
@@ -361,8 +373,22 @@ p{ color: var(--ivory-dim); margin:0 0 16px; font-size:16px; }
   .nav-dropdown-menu a{ padding:8px 0; font-size:15px; }
   .nav-toggle{ display:block; }
   .nav-right .btn{ display:none; }
-  .hero{ min-height:auto; padding: 20px 0; }
-  .hero-inner{ padding: 70px 0; }
+  .hero{ min-height:auto; padding:0; display:block; }
+  .hero-media{
+    position:relative;
+    inset:auto;
+    height:56vw;
+    min-height:220px;
+    max-height:340px;
+  }
+  .hero-inner{ padding: 18px 0 24px; }
+  .hero-inner .btn{
+    width:100%;
+    max-width:100%;
+    white-space:normal;
+    line-height:1.4;
+    padding: 14px 18px;
+  }
   .grid-2, .grid-3, .grid-4{ grid-template-columns: 1fr; }
   .service-index{ grid-template-columns: 1fr; }
   .team-grid .team-card{ width: 100%; max-width: 320px; }
