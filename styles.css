@@ -77,6 +77,10 @@ p{ color: var(--ivory-dim); margin:0 0 16px; font-size:16px; }
 .btn-ghost{ border-color: var(--gold-line); color: var(--ivory); }
 .btn-ghost:hover{ border-color: var(--gold); background: var(--surface); }
 .btn-block{ width:100%; }
+.team-cta-btn{
+  white-space:normal;
+  text-align:center;
+}
 
 /* ---------- crest divider (signature) ---------- */
 .crest-divider{ display:flex; align-items:center; justify-content:center; gap:14px; margin: 0 auto 6px; opacity:.9; }
@@ -389,6 +393,11 @@ p{ color: var(--ivory-dim); margin:0 0 16px; font-size:16px; }
     white-space:normal;
     line-height:1.4;
     padding: 14px 18px;
+  }
+  .team-cta-btn{
+    font-size:12px;
+    padding: 12px 14px;
+    line-height:1.35;
   }
   .grid-2, .grid-3, .grid-4{ grid-template-columns: 1fr; }
   .service-index{ grid-template-columns: 1fr; }
