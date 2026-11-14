@@ -1,0 +1,37 @@
+praeventive-zahnmedizin.html
+  s_a4601f5e14be0a::t_b22c1f059c490e 76-79
+en/praeventive-zahnmedizin.html
+  s_a4601f5e14be0a::t_401c1d35f51b38 76-79
+ru/diagnostik-biss-kiefergelenk.html
+  s_a4601f5e14be0a::t_89b44c24990d33 76-79
+en/diagnostik-biss-kiefergelenk.html
+  s_a4601f5e14be0a::t_96d1746832d595 76-79
+ru/praeventive-zahnmedizin.html
+  s_d60e13f5d97f24::t_6eb663998596f1 76-79
+diagnostik-biss-kiefergelenk.html
+  s_d60e13f5d97f24::t_10f0bc48cc23fc 76-79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e8da47fc294e2cc37fefd3b2566e127d47b266a6",
+  "prompts": {},
+  "sessions": {
+    "s_a4601f5e14be0a": {
+      "agent_id": {
+        "tool": "github-copilot-jetbrains",
+        "id": "1794655501314",
+        "model": "unknown"
+      },
+      "human_author": "Copilot <223556219+Copilot@users.noreply.github.com>"
+    },
+    "s_d60e13f5d97f24": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "83b620e7-57a4-4eda-8b9c-36ef27d6ecec",
+        "model": "unknown"
+      },
+      "human_author": "Copilot <223556219+Copilot@users.noreply.github.com>"
+    }
+  }
+}
