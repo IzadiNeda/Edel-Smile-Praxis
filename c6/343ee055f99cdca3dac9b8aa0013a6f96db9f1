@@ -1,0 +1,33 @@
+en/index.html
+  s_d60e13f5d97f24::t_13fafea2b4e3e0 110
+index.html
+  s_d60e13f5d97f24::t_d258bc48ba34bf 111
+ru/index.html
+  s_d60e13f5d97f24::t_085c2bc2525503 110
+styles.css
+  s_a4601f5e14be0a::t_be32442e646e89 53-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c6343ee055f99cdca3dac9b8aa0013a6f96db9f1",
+  "prompts": {},
+  "sessions": {
+    "s_a4601f5e14be0a": {
+      "agent_id": {
+        "tool": "github-copilot-jetbrains",
+        "id": "1794655501314",
+        "model": "unknown"
+      },
+      "human_author": "Copilot <223556219+Copilot@users.noreply.github.com>"
+    },
+    "s_d60e13f5d97f24": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "83b620e7-57a4-4eda-8b9c-36ef27d6ecec",
+        "model": "unknown"
+      },
+      "human_author": "Copilot <223556219+Copilot@users.noreply.github.com>"
+    }
+  }
+}
