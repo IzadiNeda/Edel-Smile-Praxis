@@ -1,0 +1,37 @@
+en/termin-buchen.html
+  s_efb37fc8502877::t_93dd6ccdf8c18c 97
+en/index.html
+  s_efb37fc8502877::t_511b1049bf179a 57
+termin-buchen.html
+  s_efb37fc8502877::t_7c4706a036b4d8 97
+ru/termin-buchen.html
+  s_efb37fc8502877::t_c5f6c48b554a20 97
+ru/index.html
+  s_a4601f5e14be0a::t_22a88cc2a87822 57
+index.html
+  s_a4601f5e14be0a::t_525a99d9d5dbbb 58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b7360ab8bc8dfb2989f842da5060f9c5ee0d2558",
+  "prompts": {},
+  "sessions": {
+    "s_a4601f5e14be0a": {
+      "agent_id": {
+        "tool": "github-copilot-jetbrains",
+        "id": "1794655501314",
+        "model": "unknown"
+      },
+      "human_author": "Copilot <223556219+Copilot@users.noreply.github.com>"
+    },
+    "s_efb37fc8502877": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "6d79c3f5-3eed-4045-b0ac-36d0caad6355",
+        "model": "unknown"
+      },
+      "human_author": "Copilot <223556219+Copilot@users.noreply.github.com>"
+    }
+  }
+}
