@@ -1,0 +1,23 @@
+en/services.html
+  s_efb37fc8502877::t_09b281060c1dc5 69
+services.html
+  s_efb37fc8502877::t_9519618eb3f259 69
+ru/services.html
+  s_efb37fc8502877::t_fba0f51dff5448 69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b68efdac8e136384caf438cd318d6148d3f4cd01",
+  "prompts": {},
+  "sessions": {
+    "s_efb37fc8502877": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "6d79c3f5-3eed-4045-b0ac-36d0caad6355",
+        "model": "unknown"
+      },
+      "human_author": "Copilot <223556219+Copilot@users.noreply.github.com>"
+    }
+  }
+}
